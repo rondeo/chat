@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="En-Eu">
+
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>Webpack starter</title>
 </head>
+
 <body>
+    <header>
+        <div class="left">
+        <a id="mainLogoLink" href="/"><img id="logoImg" src="./images/logoImages.png" alt="Logo"></a>
+        </div>
+        <div class="right">
+                <div id="dataTimeBlock">
+                        <p>Now time<time id="nowTime" datetime="19:00">19:00</time></p>
+                        <p>You online<time id="onlineTime" datetime="05:25">05:25</time></p>
+                    </div>
+            <div id="messageBlock">
+                <a id="linkMessageImages" href="#message"><img src="./images/newMessageLink.png" alt="New message"></a>
+                <div id="newMessageCounterBlock"><p id="newMessageCounter">3</p></div>
+            </div>
+            <div id="profileBlock">
+            <a id="changeProfile" href=""><img src="./images/changeProfile.png" alt="Logo"></a>
+            </div>
+            
+        </div>
+    </header>
 </body>
+
 </html>

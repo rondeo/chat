@@ -1,10 +1,71 @@
-$color: teal;
-
-h1 {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  background-color: $color;
-  color: white;
-  text-align: center;
+// header style
+header {
+  height: 80px; 
+  background-image: linear-gradient( #325da7,#f7f7f7);
+  width: 100%;
 }
+body{
+  background-color: f7f7f7;
+}
+
+header *{
+  display: inline;
+}
+
+
+#logoImg {
+  width: 64px;
+  height: 64px;
+  padding: 10px;
+  
+}
+#messageBlock > *{
+  position: relative;
+}
+#dataTimeBlock p{
+  display: block;
+}
+
+#newMessageCounterBlock {
+  color:#181818;
+  background-color: #ec3c3c; 
+  padding: 2px;
+  z-index: 10;
+  bottom: 22px;
+  right: 43px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+
+
+.left, .right {
+    display: inline-block;
+    width: 100%;
+    margin-right: -100%;
+    vertical-align: bottom;
+}
+
+.right {
+  text-align: right;
+
+}
+#profileBlock {
+  padding: 10px;
+}
+#dataTimeBlock{
+  vertical-align: top;
+  text-align: left;
+  width: 130px;
+}
+#dataTimeBlock p time{
+  padding-left: 5px;
+}
+.left>*, .right>*{ display: inline-block; position: relative; }
+
+// header style
+
+// list users in chat style 
+
+
+
+
