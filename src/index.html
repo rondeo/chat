@@ -31,40 +31,101 @@
     </header>
     <main>
         <div id="listDialogsBlock">
-            <p>Dialogs____________</p>
+                <div><a href="/"><img src="images/groupDialogIcon.png"></a><p class="dialogTitle">Group dialog 1</p></div>
+                <div><a href="/"><img src="images/privateDialogIcon.png"></a><p class="dialogTitle">Private dialog 1</p></div>
+                <div><a href="/"><img src="images/groupDialogIcon.png"></a><p class="dialogTitle">Group dialog 2</p></div>
+                <div><a href="/"><img src="images/privateDialogIcon.png"></a><p class="dialogTitle">Private dialog 2</p></div>
         </div>
         <div id="userInterfaceBlock">
             <div id="listMessagesBlock">
-                <p>2)message +++++++ </p>
+                <div class="message">
+                    <p class="userName">User1</p>
+                    <p class="messageContentBlock">Hello! How can I help you? </p>
+                </div>
+                <div class="myMessage">
+                    <p class="userName">User0</p>
+                    <p class="myMessageContentBlock">I would like to reserve a tour to Egypt</p>
+                </div>
+                <div class="message">
+                    <p class="userName">User3</p>
+                    <p class="messageContentBlock">When would you like to leave?</p>
+                </div>
+                <div class="myMessage">
+                    <p class="userName">User0(My message)</p>
+                    <p class="myMessageContentBlock">Are you going by yourself?</p>
+                </div>
+                <div class="message">
+                    <p class="userName">User3</p>
+                    <p class="messageContentBlock">No. I need a trip for two</p>
+                </div>
+                <div class="myMessage">
+                    <p class="userName">User0(My message)</p>
+                    <p class="myMessageContentBlock">Are you going by yourself?</p>
+                </div>
+                <div class="message">
+                    <p class="userName">User3</p>
+                    <p class="messageContentBlock">It’s a hotel at the center of Hurghada. It offers direct access to
+                        the beach and 2 outdoor pool areas. For relaxation hotel has a health club with sauna and
+                        hammam. There are also shops selling souvenirs and jewellery. Here’s photos.</p>
+                </div>
+                <div class="message">
+                    <p class="userName">User99</p>
+                    <p class="messageContentBlock">It’s a hotel at the center of Hurghada. It offers direct access to
+                        the beach and 2 outdoor pool areas. For relaxation hotel has a health club with sauna and
+                        hammam. There are also shops selling souvenirs and jewellery. Here’s photos.</p>
+                </div>
+                <div class="myMessage">
+                    <p class="userName">User0(My message)</p>
+                    <p class="myMessageContentBlock">Great. I like it! </p>
+                </div>
+                <div class="message">
+                    <p class="userName">User3</p>
+                    <p class="messageContentBlock">Ok. Let’s check if there are tickets available for these flights on
+                        the days you mentioned</p>
+                </div>
             </div>
             <div id="inputMessagesBlock">
                 <form action="">
                     <textarea placeholder="Write a message" rows="5"></textarea>
                 </form>
-                <button id="sendMessage">
-                        <img src="./images/sendMessageButtonIcon.png">
-                      </button>   
-            </div> 
-                    <div id="messageDeteilsInformationBlock">
-                        <table>
-                            <tr>
-                                <th>All characters</th>
-                                <th>Letters entered</th>
-                                <th>Invisible characters</th>
-                                <th>Punctuation marks</th>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>0</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                        </table>
+                <div id="sendMessageBlock">
+
+                    <div id="formatTextButtonBlock">
+                        <button class="formatTextButtonClass">
+                            <b>B</b>
+                        </button>
+                        <button class="formatTextButtonClass">
+                            <i>I</i>
+                        </button>
+                        <button class="formatTextButtonClass">
+                            <u>U</u>
+                        </button>
                     </div>
+                    <button id="sendMessage">
+                        Send
+                    </button>
                 </div>
-                <div id="listUsersInDialog">
-                    <p>3)</p>
-                </div>
+            </div>
+            <div id="messageDeteilsInformationBlock">
+                <table>
+                    <tr>
+                        <th>All characters</th>
+                        <th>Letters entered</th>
+                        <th>Invisible characters</th>
+                        <th>Punctuation marks</th>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="listUsersInDialog">
+            <p>3)</p>
+        </div>
     </main>
 </body>
 
