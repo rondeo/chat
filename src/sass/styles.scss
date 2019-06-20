@@ -112,6 +112,7 @@ main div{
   left: 75%;
   width: 25%; 
   background-color: #271c46;
+  color: #ffffff;
 }
 
 
@@ -200,11 +201,6 @@ main div{
   margin :0px;
   margin-left: 4px; 
 }
-.message *{
-  padding: 7px;
-  margin :0px;
-  margin-left: 4px;
-}
 .myMessage *{
   padding: 7px;
   margin :0px;
@@ -235,3 +231,11 @@ main div{
 
 }
 
+#listUsersInDialog > *{
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+.oflineUserItem{
+  color: #ffc003;
+}
