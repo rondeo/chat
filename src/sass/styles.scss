@@ -1,10 +1,7 @@
-// header style
 
 body{
   background-color: #a69cc1;
 }
-
-
 header {
   margin-top: 0px;
   color: white;
@@ -14,12 +11,9 @@ header {
   border-radius: 10px;
 }
 
-
-
 header *{
   display: inline;
 }
-
 
 #logoImg {
   width: 64px;
@@ -45,34 +39,33 @@ header *{
   bottom: 40px;
 }
 
-
 .left, .right {
-    display: inline-block;
-    width: 100%;
-    margin-right: -100%;
-    vertical-align: bottom;
+  display: inline-block;
+  width: 100%;
+  margin-right: -100%;
+  vertical-align: bottom;
 }
 
 .right {
   text-align: right;
-
 }
+
 #profileBlock {
   padding: 10px;
 }
+
 #dataTimeBlock{
   vertical-align: top;
   text-align: left;
   width: 130px;
 }
+
 #dataTimeBlock p time{
   padding-left: 5px;
 }
+
 .left>*, .right>*{ display: inline-block; position: relative; }
 
-// header style
-
-// list users in chat style
 main{
   width: 100%;
   position: relative;
@@ -90,6 +83,7 @@ main div{
   width: 25%;
   background-color: #271c46;
 }
+
 #userInterfaceBlock{
   height: 84vh;
   margin-left: 0.5%;
@@ -102,9 +96,6 @@ main div{
   border-radius: 10px;
 }
 
-
-
-
 #listUsersInDialog{
   border-radius: 10px;
   height: 84vh;
@@ -114,7 +105,6 @@ main div{
   background-color: #271c46;
   color: #ffffff;
 }
-
 
 #listMessagesBlock{
   overflow: auto; 
@@ -131,36 +121,43 @@ main div{
 }
 
 #messageDeteilsInformationBlock{
+  overflow: auto;
   width: 100%;
-  height: 45px;
+  height: 46px;
   background-color: #e5e5fe;
   border-radius: 0px 0px 10px 10px;
 }
+
 #messageDeteilsInformationBlock table{
   width: 100%;
   text-align: center;
 }
+
 #userInterfaceBlock div{
   position: relative;
   display: inline-block;
 }
+
 #inputMessagesBlock form textarea{
   margin-top: 4px;
   margin-left: 2px;
   width: 80%;
   resize: none;
 }
+
 #inputMessagesBlock *{
   display: inline;
 }
+
 #sendMessageBlock{
-  
+  min-width: 100px;
   float: right;
   top: 15%;
   height: 100%;
   width: 18%;
   padding-right: 4px;
 }
+
 #sendMessage{
   vertical-align: bottom;
   margin-bottom:4px;
@@ -170,43 +167,50 @@ main div{
   background-color:#271c46;
   text-align: center;
 }
+
 #formatTextButtonBlock{
   width: 100%;
   height: 40%;
   text-align: center;
 }
+
 .formatTextButtonClass{
   width: 30%;
   height: 100%;
-
 }
+
 .myMessage,.message{
   margin-top: 15px;
   width: 86%;
   height: auto;
 }
+
 .message *{
   padding: 7px;
   margin :0px;
   margin-left: 4px;
 }
+
 .messageContentBlock{
   color: #ffffff;
   background-color: #271c46;
   border-radius: 0px 10px 10px 10px ;
 }
+
 .myMessage{
   float: right;
   padding: 7px;
   margin :0px;
   margin-left: 4px; 
 }
+
 .myMessage *{
   padding: 7px;
   margin :0px;
   margin-left: 4px;
   text-align: right;
 }
+
 .myMessageContentBlock{
   text-align: left;
   color: #000000;
@@ -238,4 +242,9 @@ main div{
 }
 .oflineUserItem{
   color: #ffc003;
+}
+.openedChat{
+  border-color: #ffc003;
+  border-width: 2px;
+  border-style: solid;
 }
